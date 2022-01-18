@@ -72,6 +72,8 @@ body {
 @media (min-width: 1440px) {
     body {
         background-image: url("../images/bg-desktop.svg");
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .preview {
         width: 53vw;
@@ -90,5 +92,28 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+    .title,
+    .description {
+        text-align: left;
+    }
+    .title {
+        position: relative;
+        width: 50%;
+        font-size: xx-large;
+        font-weight: 600;
+    }
+    .description {
+        width: 60%;
+    }
+    .register {
+        left: -8rem;
+        bottom: 2rem;
+        padding: 1rem 3rem 1rem 3rem;
+    }
+    .social {
+        position: relative;
+        top: 10rem;
+        left: 28rem;
     }
 }
