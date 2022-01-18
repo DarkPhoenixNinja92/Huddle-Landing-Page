@@ -35,3 +35,16 @@ body {
     position: relative;
     left: 2rem;
 }
+
+.description {
+    width: 80%;
+    text-align: center;
+}
+
+.register {
+    position: relative;
+    left: 10vw;
+    color: hsl(300, 69%, 71%);
+    border-radius: 25px;
+    padding: 1rem 5rem 1rem 5rem;
+}
